@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body > 
-    <header>
+    <header> 
       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container"> 
          <div class="row w-100  align-items-center justify-content-between">
@@ -570,7 +570,240 @@
         <div class="container">
           <div class="text-center">
             <h2 class="section__head delivery__head"> Доставка до вашего объекта</h2> 
+          </div>
+          <div class="delivery__centering">
             <img src="img/deliverycar.png" alt="Картинка камаза доставки" class="delivery__car">
+            <div class="row justify-content-between delivery__list">
+              <div class="col-md-3 delivery__item">
+                <div class="delivery__centeringitem">
+                  <div class="text-center">
+                    <span class="delivery__type">5м<sup>2</sup>миксерами</span> <br>
+                    <span class="delivery__price">от 2500 руб</span>
+                    <a href="#" class="button  mx-auto delivery__button">Заказать</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 delivery__item">
+                <div class="delivery__centeringitem"> 
+                  <div class="text-center"> 
+                  <span class="delivery__type">8м<sup>2</sup>миксерами</span> <br>
+                  <span class="delivery__price">от 3500 руб</span>
+                  <a href="#" class="button   mx-auto delivery__button">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <section class="calculation">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="section__head calculation__head">Рассчитайте <span>точный объём</span> <br>
+              бетона</h2> 
+             <div class="calculationblock">
+               <div class="row w-100  calculationblock__list">
+                <div class="col-md-8 calculationblock__leftblock calculationleftblock">
+                   <div class=" calculationleftblock__centering">
+                    <div class="row">
+                      <div>
+                        <div>
+                          <span class="calculationleftblock__tittle">Форма фундамента</span>
+                          <div class="calculationblock__selecttype">
+                            <input type="radio" name="#" id="">  
+                            <label for="">Фундамент цельный <br>
+                              (плита)</label> 
+                              <br>
+                            <input type="radio" name="#" id="">
+                            <label for="">Фундамент ленточный</label>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-md-8 ml-auto">
+                        <img src="img/fundament-monolitnaya-plita1.png" alt="Картинка фундамента" class="w-100 calculationblock__img">
+                      </div>
+                   </div>
+                    <div class="row">
+                      <div class="d-md-flex flex-md-row flex-wrap calculationblock__values calculationblockvalues">
+                        <div class="col-md-6  calculationblockvalues__item">
+                          <label for="#">Марка бетона:</label> <br>
+                          <select name="#" id="" class="w-100">
+                            <option value="M100">M100</option>
+                            <option value="M100">M150</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6 calculationblockvalues__item">
+                          <label for="#">Ширина фундамента, м:</label>
+                          <input type="number" name="" id="" class="w-100">
+                        </div>
+                        <div class="col-md-6 calculationblockvalues__item" >
+                          <label for="#">Высота фундамента, м</label>
+                          <input type="number" name="" id="" class="w-100">
+                        </div>
+                        <div class="col-md-6 calculationblockvalues__item" >
+                          <label for="#">Длина фундамента, м</label>
+                          <input type="number" name="" id="" class="w-100">
+                        </div>
+                        <div class="col-md-6 calculationblockvalues__item" >
+                          <a href="#" class="button mx-auto calculation__button">Посчитать</a>
+                        </div>
+                        <div class="col-md-6 calculationblockvalues__item" >
+                          <span class="calculation__result">250 м<sup>3</sup> </span> <br>
+                          <span class="calculation__tittle">
+                            Объем бетона, необходимый для заливки
+                            фундамента по указанным параметрам
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                   <div>
+                    
+                   </div>
+                  </div>
+                </div> 
+                <div class="col-md-4 ml-auto calculationblock__rightblock">
+                 <div class="contactblock text-center">
+                  <h3 class="contactblock__answer">Ответим на любые <br>
+                   вопросы:</h3>
+                   <span class="contactblock__writetittle">Напишите нам</span>
+                   <ul class="contactblock__messangers messangers   row justify-content-between pl-0 list-unstyled  mx-auto ">
+                    <li class="messangers__messanger messangers__messanger--whatshapp">
+                     <a href="#">
+                       <img src="img/whatsapp.png" alt="Икнопка Вотсапа" class="messanger__img messanger__img--whatsapp"> <br>
+                       WhatsApp</a> 
+                    </li>
+                    <li class="messangers__messanger messangers__messanger--viber"> 
+                      <img src="img/viber.png" alt="Икнопка Вайбера" class="messanger__img messanger__img--viber"> <br>
+                     <a href="#">Viber</a>
+                    </li>
+                    <li class="messangers__messanger messangers__messanger--telegram">
+                     <a href="#">
+                      <img src="img/telegram.png" alt="Икнопка Телеграмма" class="messanger__img messanger__img--telegram  "> <br>
+                      Telegram</a>
+                    </li>
+                   </ul>
+                   <span class="contactblock__getcall">Позвоните по телефону</span> <br>
+                   <a href="" class="contactblock__number">(3012)44-60-66</a> <br>
+                   <span class="contactblock__getform">Оставьте заявку на сайте</span>
+                   <a href="#" class="button  col-md-8  mx-auto contactblock__button">Запросить цену</a>
+                 </div>
+                </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </section>
+      <section class="offices">
+        <div class="container">
+          <h2 class="section__head offices__head">Обеспечиваем <span>доставку <br>
+            по Улан-Удэ и районам</span> <br>
+            собственным автопарком</h2> 
+           <div class="row">
+             <div class="col">
+              <div class="offices__deliveryinfo">
+                <div class="offices__centeringinfo ">
+                  <div class="d-flex flex-row">
+                     <img src="img/minicar.png" alt="Маленькая машинка" class="offices__minicar">
+                     <span class="offices__tittle ml-auto">Доставка в любой район  <br>
+                      города и по республике</span>
+                  </div>
+                </div>
+             </div>
+           </div>
+          </div>
+        </div>
+      </section>
+      <section class="suspicions">
+        <div class="container">
+          <div class="text-center"> 
+            <h2 class="section__head suspicions__head"><span>Предлагают подозрительно низкие цены?</span>
+              Не радуйтесь раньше времени! </h2> 
+            <span class="suspicions__tittle">Наша компания на рынке уже 20 лет, и можем вас заверить, стоимость бетона <br>
+              у качественного производителя может отличаться не более, <br>
+              чем на 3%-4%, если разница больше, то скорее всего:
+              </span>
+          </div>
+          <div class="row suspicions__list text-center">
+            <div class="col-md-4 suspicions__item suspicionsite">
+              <img src="img/scales.png" alt="Картинка весов" class="suspicionsitem__image">
+              <h4 class="suspicionsitem__head">Вам не догрузят нужный объем</h4>
+              <span class="suspicionsitem__tittle">Практически невозможно понять, <br>
+                что из 8м3, вам привезли 90% <br>
+                от заказанного объема
+                </span>
+            </div>
+            <div class="col-md-4 suspicions__item suspicionsite">
+              <img src="img/counterfeit.png" alt="Картинка другой марки" class="suspicionsitem__image">
+              <h4 class="suspicionsitem__head">Привезут другую марку</h4>
+              <span class="suspicionsitem__tittle">Вы заказали М300, а вам привезли <br>
+                М150 и это очень распространенная <br>
+                ситуация
+                </span>
+            </div>
+            <div class="col-md-4 suspicions__item suspicionsitem">
+              <img src="img/compound.png" alt="Картинка лопатки" class="suspicionsitem__image">
+              <h4 class="suspicionsitem__head">Изменят состав</h4>
+              <span class="suspicionsitem__tittle">Тем самым удешевив производство </span>
+            </div>
+          </div>
+          <div class="suspicions__buttomblock buttomblock text-center">
+            <span class="buttomblock__text ">
+              <p> <span class="text-uppercase">Бетон – основа вашего строения.</span> <br>
+                 Риск от некачественного бетона грозит полным сносом возводимого  <br> здания.    <span class="text-uppercase">Не экономьте на качестве! </span> </p>
+            </span>
+          </div>
+        </div>
+      </section>
+      <section class="consultant">
+        <div class="container">
+          <h2 class="section__head consultant__head">Проконсультируйтесь с инженером. <br>
+            <span> Бесплатная консультация убережет <br>
+              вас от ошибок </span>
+            </h2>  
+            <div class="row">
+              <div class="col-md-4">
+                <span class="consultant__tittle">А еще инженер поможет:</span>
+                <div class="d-flex flex-column consultant__list">
+                  <div class="consultant__item  d-flex align-items-center">
+                    <div class="consultant__itemcenter"> 
+                      <img src="img/minicalc.png" alt="" class="consultant__image consultant__image--calc">
+                      <span class="consultant__text">Сделать расчет</span>
+                    </div> 
+                  </div>
+                  <div class="consultant__item  d-flex align-items-center">
+                    <div class="consultant__itemcenter">  
+                      <img src="img/minimenu.png" alt="" class="consultant__image consultant__image--menu">
+                      <span class="consultant__text">Выбрать марку бетона</span>
+                    </div> 
+                  </div> 
+                  <div class="consultant__item  d-flex align-items-center">
+                    <div class="consultant__itemcenter"> 
+                      <img src="img/question.png" alt="" class="consultant__image consultant__image--question">
+                      <span class="consultant__text">Ответит на все вопросы</span>
+                    </div> 
+                  </div>
+                </div> 
+              </div>
+              <div class="col-md-4 ml-auto">
+                <div class="consultant__formblock">
+                  <form action="#" class="text-center col-md-10 mx-auto">
+                    <fieldset>
+                      <legend class="formblock__legend">Заполните форму <br>
+                       <span>
+                        для получения <br>
+                        консультации
+                       </span></legend>
+                       <input type="text" name="" id="" placeholder="Введите ваше имя" class="col-md-12 formblock__name">
+                       <input type="text" name="" id="" placeholder="Введите ваш номер" class="col-md-12 formblock__phone"> 
+                       <input type="submit" value="Перезвоните мне " class="button consultant__button col-md-12">
+                       <span   class="formblock__warning">
+                        Нажимая кнопку вы даете согласие <br>
+                        на  <a href="#">обработку персональных данных</a> </span>
+                       </span>
+                      </fieldset> 
+                  </form>
+                </div>
+              </div>
             </div>
         </div>
       </section>
@@ -591,7 +824,7 @@
     <script src="js/main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
  
   </body>
 </html>
